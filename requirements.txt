@@ -3,4 +3,6 @@ gymnasium==0.29.1
 stable-baselines3==2.2.1
 matplotlib==3.8.4
 numpy==1.26.4
+gymnasium[box2d]==0.29.1
+
 
