@@ -24,6 +24,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: ⚙️ Run evaluation script
-      run: |
-        python evaluate_models.py
+ - name: ✅ Run smoke test
+  run: |
+    python ci_test.py
